@@ -16,13 +16,13 @@ public class Ejercicio02 {
      */
     public static void main(String[] args) {
         // Resolución del problema
-        int var1 = 10;
-        int var2 = 2;
-        
-                
+        int var1 = (int) (Math.pow(5, 2));
+        int var2 = (int) (Math.pow(3, 3));
+        int var3 = 4;
+        int var4 = 7; 
+
+        double resultado = (var1 + var2) / var3 + var4;
+
+        System.out.println(resultado);
     }
-    
-    
-    
-    
 }
